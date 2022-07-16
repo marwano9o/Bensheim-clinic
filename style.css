@@ -354,3 +354,164 @@ header .fa-bars{
   border-radius: .5rem;
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
+
+.post .box-container .box img{
+  height:20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.post .box-container .box .content{
+  padding:0 1.5rem;
+}
+
+.post .box-container .box .content span{
+  color:#666;
+  font-size: 1.5rem;
+  display: block;
+  padding:1rem 0;
+}
+
+.post .box-container .box .content h3{
+  font-size: 2rem;
+  color:var(--black);
+}
+
+.post .box-container .box .content:hover h3{
+  color:var(--blue);
+}
+
+.post .box-container .box .content p{
+  font-size: 1.3rem;
+  color:var(--black);
+}
+
+.footer{
+  background:var(--black);
+}
+
+.footer p{
+  font-size: 1.5rem;
+  color:#eee;
+  padding:1rem 0;
+}
+
+.footer .col-md-4{
+  padding:1.3rem
+}
+
+.footer .col-md-4:nth-child(1) a{
+  font-size: 3rem;
+  color:#fff;
+}
+
+.footer .col-md-4:nth-child(1) a span{
+  color:var(--blue);
+}
+
+.footer a{
+  font-size: 2rem;
+  color:#ccc;
+  display: block;
+}
+
+.footer h3{
+  color:#fff;
+  font-size: 3rem;
+}
+
+.footer a:hover{
+  color:var(--blue);
+}
+
+.footer .credit{
+  color:#fff;
+  width:80%;
+  margin:0;
+  padding:2rem 0;
+  padding-bottom: 4rem;
+  border-top: .1rem solid #ccc !important;
+}
+
+.footer .credit span{
+  color:var(--blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .fa-times{
+  transform: rotate(180deg);
+}
+
+/* media queries  */
+
+@media (max-width:768px){
+
+  html{
+    font-size: 55%;
+  }
+
+  header .fa-bars{
+    display: block;
+    background-color: aquamarine;
+  }
+
+  header .nav{
+    position: fixed;
+    top:-100rem; left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 100vh rgba(0,0,0,.3);
+    border-radius: .5rem;
+    border:.3rem solid var(--blue) !important;
+    background:#fff;
+    width: 95%;
+    opacity: 0;
+  }
+
+  header .nav ul{
+    width: 100%;
+    flex-flow: column;
+    padding:2rem 0;
+  }
+
+  header .nav ul li{
+    width: 100%;
+    text-align: center;
+    margin:1rem 0;
+  }
+
+  header .nav ul li a{
+    font-size: 3rem;
+    display: block;
+  }
+
+  header .nav-toggle{
+    top:50%;
+    opacity: 1;
+  }
+
+  .contact form .inputBox input, select{
+    width: 100%;
+  }
+  .contact form input[type="submit"]{
+    width:100%;
+  }
+
+}
