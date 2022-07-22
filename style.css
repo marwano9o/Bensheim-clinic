@@ -30,6 +30,7 @@ html{
 
 body{
   overflow-x: hidden;
+  background-color: rgb(138, 248, 212);
 }
 
 section{
@@ -91,7 +92,9 @@ header{
   z-index: 1000;
   background-color: aquamarine;
 }
-
+.white-text{
+  color: rgb(18, 17, 17);
+}
 .header-active{
   background:#fff;
   box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
@@ -147,7 +150,13 @@ header .fa-bars{
   font-size: 5rem;
   color:var(--black);
 }
-
+.home {
+  background: url(images/img2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .home .content h1 span{
   color:var(--blue);
 }
@@ -155,7 +164,7 @@ header .fa-bars{
   font-size: 4rem;
   color:var(--black);
 }
-
+wwew
 .about{
   background:#eee;
 }
