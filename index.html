@@ -101,7 +101,8 @@
 
             <div class="box">
                 <h3> <i class="fas fa-procedures"></i> emergency rooms </h3>
-                <p> with beds prevent the adjustments from properly shaping the bed's surface. </p>
+                <p> with beds prevent the adjustments <br>
+                    from properly shaping the bed's surface. </p>
             </div>
 
             <div class="box">
@@ -286,45 +287,73 @@
     <div class="container min-vh-100">
 
         <div class="row justify-content-center">
-
-            <h1 class="heading"><span>'</span> make an appointment <span>'</span></h1>
-
-            <div class="col-md-10" data-aos="flip-down">
-
-                <form action="">
-
-                    <div class="inputBox">
-                        <input type="text" placeholder="full name">
-                        <input type="number" placeholder="phone">
+            <div>
+           <div> <h1 class="heading"><span>'</span> make an appointment <span>'</span></h1></div>
+             <div>
+            
+                <!-- <div >
+                    <form>
+                      <div >
+                      <label></label>
+                      <input type="text"  id="first-name" placeholder="first name">
                     </div>
-
-                    <div class="inputBox">
-                        <input type="email" placeholder="your email">
-                        <select name="" id="">
-                            <option value="" disabled selected>make an appointment</option>
-                            <option value="09-11 am">05/08 09-11 am</option>
-                            <option value="11-03 pm">05/08  11-03 pm</option>
-                            <option value="03-06 pm">05/08  03-06 pm</option>
-                            <option value="06-09 pm">05/08  06-09 pm</option>
-                            <option value="09-11 am">05/09  09-11 am</option>
-                            <option value="11-03 pm">05/09  11-03 pm</option>
-                            <option value="03-06 pm">05/09  03-06 pm</option>
-                            <option value="06-09 pm">05/09  06-09 pm</option>
-                            <option value="09-11 am">05/10  09-11 am</option>
-                            <option value="11-03 pm">05/10  11-03 pm</option>
-                            <option value="03-06 pm">05/10  03-06 pm</option>
-                            <option value="06-09 pm">05/10  06-09 pm</option>
-        
-                            
-                        </select>
+                    <div >
+                      <label></label>
+                      <input type="text"  id="last-name"placeholder="last name">
                     </div>
+                    <div >
+                        <div >
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email"  id="email" placeholder="Enter email">
+                          </div>
+                          <div >
+                            <label for="exampleInputEmail1"></label>
+                            <input  type="tel" id="tel" placeholder="Phone Number">
+                          </div>
+                          <label for="meeting-time" id="timer">Choose time for your appointment:</label>
 
-                    <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
+                          <input type="datetime-local" id="meeting-time"
+                              name="meeting-time" value="2018-06-12T19:30"
+                              min="2018-06-07T00:00" max="2018-06-14T00:00">
+  
+                    <button type="submit" id="submit" class="button3">Submit</button>
+                  </form>
+                  </div>
+                -->
 
-                    <input type="submit" name="" id="" value="make appointment" class="button">
 
-                </form>
+                <div >
+                    <form>
+                      <div >
+                      <label></label>
+                      <input type="text"  id="first-name" placeholder="first name">
+                    </div>
+                    <div >
+                      <label></label>
+                      <input type="text"  id="last-name"placeholder="last name">
+                    </div>
+                    <div >
+                        <label></label>
+                        <input type="tel"  id="tel" placeholder="Phone Number">
+                      </div>
+                    <div >
 
+                      <label for="exampleInputEmail1"></label>
+                      <input type="email"  id="email" placeholder="Enter email">
+                    </div>
+                    <label for="meeting-time" id="timer"></label>
+                    <div></div><input type="datetime-local" id="time"
+                        name="meeting-time" value="2022-09-12T19:30"
+                        min="2022-01-07T00:00" max="2025-06-14T00:00">
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  </div>
+
+
+
+
+                  </div>
             </div>
 
         </div>
@@ -446,5 +475,12 @@ AOS.init({
 
 </script>
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+
+<script type="module" src="app.js"></script>
+ 
+  
+  
 </body>
 </html>
